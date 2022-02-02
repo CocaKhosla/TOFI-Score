@@ -45,5 +45,6 @@ Therefore, ideally the buyer would want a positive TOFI Score since it protects 
 - The unrated bond interests are those of Ferrari and their probabilities are guessed. This row and column could be removed if wished upon.
 
 ## Other features
-- Calculate the expected time for a bond rating to default
-- Calculate the proportion of a particular rated bond in the market
+- Calculate the **expected time for a bond rating to default**
+- Calculate the **proportion of a particular rated bond in the market**
+- Calculate the **fraction of bonds that default**
