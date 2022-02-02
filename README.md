@@ -20,6 +20,7 @@ TOFI takes a Markov Chain where each i<sup>th</sup> row and column represents an
 - B
 - C
 - Default
+
 AAA is the highest rated bond with the most security and least default rates. On the contrary, the C rated bonds have the lowest security with the highest default rates and highest rates of interest. Default implies the inability to pay the loan lended by the company. So each element in this matrix represents the probability of entering from i<sup>th</sup> row rating to the j<sup>th</sup> column rating. Each row adds up to 1.
 
 Now, to calculate what the theoretical probability of these ratings changing in n years would like, your original matrix A becomes A<sup>n</sup>. With these theoretical probabilities, you can calculate the total _estimated value you will receive_ from the bond. Let's call this value **x**. Side by side, one can also calculate the bond value that they will get assuming the bond does not deviate its rating. Let's call this value **y**.
@@ -31,6 +32,7 @@ If TOFI Score:
 - **> 0**, the theoretical gain is _greater than_ its presented rate of interest.
 - **= 0**, the theoretical gain is _equal_ to its presented rate of interest.
 - **< 0**, the theoretical gain is _lesser_ than its presented rate of interest.
+
 Therefore, ideally the buyer would want a positive TOFI Score since it protects them from the offchance of their bond rating changing.
 
 ## Assumptions
