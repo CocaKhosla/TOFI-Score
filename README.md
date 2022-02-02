@@ -9,6 +9,7 @@ When someone purchases a bond, they consider four factors:
 - Duration of the bond.
 - Bond Rating.
 - Minimum price to purchase.
+
 Implicitly, another factor is also considered when we look at Bond Rating which is _probability of defaulting_. Now, when a person buys the bond they are aware of these factors but can't quantify it. Also, when one purchases a bond, while they consider the probability of defaulting, they don't consider the probability of a bond rating changing. This is managed using TOFI.
 
 TOFI takes a Markov Chain where each i<sup>th</sup> row and column represents an S&P bond rating. These are:
