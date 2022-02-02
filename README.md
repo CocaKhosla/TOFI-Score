@@ -43,3 +43,7 @@ Therefore, ideally the buyer would want a positive TOFI Score since it protects 
 - The rate of interest for the bonds will be calculated for the entire period (this is due to the inherent nature of Markov Chains)
 - Bond ratings change interest rates
 - The unrated bond interests are those of Ferrari and their probabilities are guessed. This row and column could be removed if wished upon.
+
+## Other features
+- Calculate the expected time for a bond rating to default
+- Calculate the proportion of a particular rated bond in the market
