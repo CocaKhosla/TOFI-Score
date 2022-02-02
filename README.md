@@ -1,7 +1,7 @@
 # TOFI-Score (Tentative Opportunity For Increment)
 
 ## Introduction
-> **Tentative Opportunity For Increment** or TOFI is a metric that I have created that allows us to estimate the feasablity of buying a bond by not only taking into account its _rate of interest_, but also its probability of _changing bond ratings_ and probability of _defaulting_. This is achieved using *Markov Chains* and the formula of *theoretical aestimation*.
+> **Tentative Opportunity For Increment** or TOFI is a metric that I have created that allows us to estimate the feasablity of buying a bond by not only taking into account its _rate of interest_, but also its probability of _changing bond ratings_ and probability of _defaulting_. This is achieved using *Markov Chains* and the formula of *theoretical estimation*.
 
 ## The Theory
 When someone purchases a bond, they consider four factors:
@@ -37,12 +37,14 @@ If TOFI Score:
 Therefore, ideally the buyer would want a positive TOFI Score since it protects them from the offchance of their bond rating changing.
 
 ## Assumptions
-- It is assumed that the rate of interest of each of the ratings stays the same i.e, it does not change after progressing years. So, a BBB rated bond now and BBB rated bond n years later will have the same rate of interest
+- Transition of a bond rated x into a different rating y results in the interest rate of the bond changing to the interest rate of y for the whole period So, a BBB rated bond now and BBB rated bond n years later will have the same rate of interest
 - The rates of interest are the average rates of interest of these specific ratings as taken from Google
+- When a bond defaults, you bondholder gets 0 return, i.e, not even the principal amount is paid
 - The Markov Chain is taken from the S&P Annual Report.
+- Face value of each bond is $1000
 - The rate of interest for the bonds will be calculated for the entire period (this is due to the inherent nature of Markov Chains)
 - Bond ratings change interest rates
-- The unrated bond interests are those of Ferrari and their probabilities are guessed. This row and column could be removed if wished upon.
+- The unrated bond interests are those of Adidas and their probabilities are guessed. This row and column could be removed if wished upon.
 
 ## Other features
 - Calculate the **expected time for a bond rating to default**
