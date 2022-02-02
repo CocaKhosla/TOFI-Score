@@ -1,4 +1,4 @@
-# TOFI-Score
+# TOFI-Score (Tentative Opportunity For Increment)
 
 ## Introduction
 > **Tentative Opportunity For Increment** or TOFI is a metric that I have created that allows us to estimate the feasablity of buying a bond by not only taking into account its _rate of interest_, but also its probability of _changing bond ratings_ and probability of _defaulting_. This is achieved using *Markov Chains* and the formula of *theoretical aestimation*.
