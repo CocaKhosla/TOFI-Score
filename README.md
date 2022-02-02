@@ -5,7 +5,7 @@
 
 ## The Theory
 When someone purchases a bond, they consider four factors:
-- Rate of interest.
+- Annualized Rate of Interest.
 - Duration of the bond.
 - Bond Rating.
 - Minimum price to purchase.
